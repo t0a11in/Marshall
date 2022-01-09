@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b4ae1c789c754b63a17afe1865964af6" Name="Diagram1">
+        <EntityTypeShape EntityType="marshallModel.Clientes" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="marshallModel.Estados" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="marshallModel.Prendas" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="marshallModel.Proyectos" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="marshallModel.Proyectos_Prendas" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="marshallModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="marshallModel.Telas" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="marshallModel.FK_Proyectos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="marshallModel.FK_Proyectos_Prendas_Estados" ManuallyRouted="false" />
+        <AssociationConnector Association="marshallModel.FK_Proyectos_Prendas_Prendas" ManuallyRouted="false" />
+        <AssociationConnector Association="marshallModel.FK_Proyectos_Prendas_Proyectos" ManuallyRouted="false" />
+        <AssociationConnector Association="marshallModel.FK_Proyectos_Prendas_Telas" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
